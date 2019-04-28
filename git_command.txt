@@ -1,6 +1,21 @@
+#将本地文件增加到stage缓存
 git add <filename>
+
+#将stage缓存的全部文件，一次性提交到本地repository
 git commit -m "DESCRIPTED you want to tip"
+
+#查看git操作的日志记录
 git log
 git reflog
+
+#回滚到指定的提交版本
 git reset --hard <COMMIT_ID>
+
+#查看git的状态
 git status
+
+#将当前本地文件的master分支上传到分布式的远程仓库（一般称origin）
+git push -u origin master
+ 
+#从远程仓库克隆岛本地仓库
+git clone git@github.com:okgor20/
