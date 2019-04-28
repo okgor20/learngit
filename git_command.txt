@@ -1,0 +1,6 @@
+git add <filename>
+git commit -m "DESCRIPTED you want to tip"
+git log
+git reflog
+git reset --hard <COMMIT_ID>
+git status
